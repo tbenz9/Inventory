@@ -1,19 +1,21 @@
-{{if .IsIssue}}
-### Expected Behavior
+Bug Report
+==========
+Check to see if a bug report already exists.  If you still want to create a new issue please include the information below.
+
+**Stack Trace or error message**
 
 
-### Actual Behavior
+**Environment**
+* Sia version:
+* OS:
 
 
-{{end}}
-{{if .IsPullRequest}}
-### Fix or Enhancement?
+**Any useful logs**
 
 
-- [ ] All tests passed
-{{end}}
 
-### Environment
-- OS: Write here
-- Go version: Write here
-- Repo: {{.RepoName}}
+Feature Request
+===============
+Check to see if the feature is on the roadmap.  If it is not on the roadmap then clearly describe your feature request and why it would benefit Sia.
+
+[Sia roadmap](https://trello.com/b/Io1dDyuI/sia-public-roadmap)
